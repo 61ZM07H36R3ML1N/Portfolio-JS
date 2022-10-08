@@ -27,7 +27,10 @@
     "react-dom": "^17.0",
     "styled-components": "^5.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "prettierrc": "^0.0.0-5"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/61ZM07H36R3ML1N/Portfolio-JS.git"
