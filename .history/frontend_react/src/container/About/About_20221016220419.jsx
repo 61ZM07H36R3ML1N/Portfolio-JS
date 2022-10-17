@@ -8,7 +8,7 @@ const About = () => {
     <>
       <h2 className="head-text">
         I Know That
-        <span>Excellent Design</span>
+        <span></span>
       </h2>
     </>
   );

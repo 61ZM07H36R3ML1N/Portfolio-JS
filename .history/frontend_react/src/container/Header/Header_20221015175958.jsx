@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 
 import { images } from '../../constants';
-import './Header.scss';
+import './src/container/Header/Header.scss';
 
 const scaleVariants = {
   whileInView: {

@@ -7,8 +7,7 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        I Know That
-        <span>Excellent Design</span>
+        I Know That <span></span>
       </h2>
     </>
   );
