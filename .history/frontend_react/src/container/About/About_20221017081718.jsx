@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
-import { }
 import './About.scss';
 
 const about = [
@@ -52,7 +51,7 @@ const About = () => {
               {about.title}
             </h2>
             <p className="p-text" style={{ marginTop: 10 }}>
-              {about.description}
+              {about.title}
             </p>
           </motion.div>
         ))}

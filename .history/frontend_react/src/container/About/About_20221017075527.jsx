@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
-import { }
 import './About.scss';
 
 const about = [
@@ -46,15 +45,7 @@ const About = () => {
             transition={{ duration: 0.5, type: 'tween' }}
             className="app-profile-item"
             key={about.title + index}
-          >
-            <img src={about.imgUrl} alt={about.title} />
-            <h2 className="bold-text" style={{ marginTop: 20 }}>
-              {about.title}
-            </h2>
-            <p className="p-text" style={{ marginTop: 10 }}>
-              {about.description}
-            </p>
-          </motion.div>
+          ></motion.div>
         ))}
       </div>
     </>
