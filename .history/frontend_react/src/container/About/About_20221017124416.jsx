@@ -11,17 +11,17 @@ const about = [
     imgUrl: images.about01,
   },
   {
-    title: 'Frontend Development',
+    title: 'Web Design',
     description: 'I am an excellent web developer.',
     imgUrl: images.about02,
   },
   {
-    title: 'Backend Development',
+    title: 'UI/UX',
     description: 'I am an excellent web developer.',
     imgUrl: images.about03,
   },
   {
-    title: 'MERN Stack',
+    title: 'Web Animations',
     description: 'I am an excellent web developer.',
     imgUrl: images.about04,
   },
