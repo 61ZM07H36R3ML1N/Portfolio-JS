@@ -5,6 +5,29 @@ import { images } from '../../constants';
 import './About.scss';
 import { urlFor, client } from '../../client';
 
+const about = [
+  {
+    title: 'Web Development',
+    description: 'I am an excellent web developer.',
+    imgUrl: images.about01,
+  },
+  {
+    title: 'Frontend Development',
+    description: 'I am an excellent web developer.',
+    imgUrl: images.about02,
+  },
+  {
+    title: 'Backend Development',
+    description: 'I am an excellent web developer.',
+    imgUrl: images.about03,
+  },
+  {
+    title: 'MERN Stack',
+    description: 'I am an excellent web developer.',
+    imgUrl: images.about04,
+  },
+];
+
 const About = () => {
   const [about, setAbout] = useState([]);
 
@@ -35,7 +58,7 @@ const About = () => {
             className="app-profile-item"
             key={about.title + index}
           >
-            <img src={urlFor(about.imgUrl)} alt={about.title} />
+            <img src={about.imgUrl} alt={about.title} />
             <h2 className="bold-text" style={{ marginTop: 20 }}>
               {about.title}
             </h2>
