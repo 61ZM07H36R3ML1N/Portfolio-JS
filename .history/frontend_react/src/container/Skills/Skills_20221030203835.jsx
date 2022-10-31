@@ -88,4 +88,8 @@ const Skills = () => {
   );
 };
 
-export default AppWrap((Skills, 'app__skills'), 'skills', 'app__whitebg');
+export default AppWrap(
+  ('skills', 'app__skills'),
+  'skills',
+  'app__whitebg',
+);
