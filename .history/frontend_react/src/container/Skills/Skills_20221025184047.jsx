@@ -7,14 +7,14 @@ import { urlFor, client } from '../../client';
 import './Skills.scss';
 
 const Skills = () => {
+  
   useEffect(() => {
-    const query = '*[_type == "Experience"]';
-    const skillsQuery = '*[_type == "Skills"]';
+    const query = '*[_type == "experience"]';
 
     client.fetch(query).then(data => {
-      setExperience(data);
+      set;
     });
-  }, []);
+  });
 
   return (
     <>

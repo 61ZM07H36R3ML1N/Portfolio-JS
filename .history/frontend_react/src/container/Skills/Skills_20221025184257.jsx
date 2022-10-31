@@ -12,9 +12,9 @@ const Skills = () => {
     const skillsQuery = '*[_type == "Skills"]';
 
     client.fetch(query).then(data => {
-      setExperience(data);
+      set;
     });
-  }, []);
+  });
 
   return (
     <>

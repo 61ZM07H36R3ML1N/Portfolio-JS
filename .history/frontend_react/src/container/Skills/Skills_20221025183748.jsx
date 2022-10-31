@@ -7,15 +7,6 @@ import { urlFor, client } from '../../client';
 import './Skills.scss';
 
 const Skills = () => {
-  useEffect(() => {
-    const query = '*[_type == "Experience"]';
-    const skillsQuery = '*[_type == "Skills"]';
-
-    client.fetch(query).then(data => {
-      setExperience(data);
-    });
-  }, []);
-
   return (
     <>
       <h2 className="head-text">Skills & Experience</h2>
